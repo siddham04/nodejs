@@ -1,0 +1,6 @@
+ok so with every request is transferred through network packets . These packets contain some information of the requestion inside it .
+And at the top of that there is written some additional information which include the source destination of those network packets .
+This additional onformation is known as HTTP headers.
+
+HTTP Headers are important part of the API request and response as they contain the meta-data associated with the desires request and response 
+Headers carry information for the request and response body 
