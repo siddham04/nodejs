@@ -1,0 +1,28 @@
+HTTP response status code indicates whether a specific HTTP request has been successfully completed .
+Responses are grouped in 5 classes 
+
+100-199 : Informational response 
+200-299 : Successfull response 
+300-399 : Redirectional response 
+400-499 : Client error response
+500-599 : Server error response 
+
+Some major status codes
+100 : Continue 
+102 : Processing 
+200 : Continue 
+201 : Created
+202 : Accepted
+307 : Temporary Redirect
+308 : Permenant redirect 
+400 : Bad request
+401 : Unauthorized
+402 : Payment required 
+403: Forbidden 
+404 : Not found
+500 : Internal server error
+501 : Not Implemented 
+502 : Bad Gateway
+503 : Service Unavailable 
+504 : Gateway Time out
+511 : Network Authentication required 
