@@ -1,0 +1,17 @@
+Without Middlewares 
+there is a client which sends the request to the server 
+and there's the server which gets the request of the client and will route which part of the code it has to run and will send the desired response 
+
+
+With Middlewares 
+the request is first received by the middleware . This middleware will perform some processes on the request to authenticate the validity of the
+request and then will pass on this request to the desired function . If the middleware finds something suspicious , it will return the request from 
+there only without routing it to the desired function .
+
+Middleware can also make changes to the request /response 
+
+We create handler function for the middleware which contain req, res, and next as parameters.
+
+If i go from 1 middleware to another i will be having the acess of every varaible/constant declares in the previous middlewares with the help
+of which i can make changes in the response and the request
+
